@@ -11,17 +11,12 @@ public class Menu {
         System.out.println("	2. 하나의 항목 삭제 ( 명령어: del )");
         System.out.println("	3. 하나의 항목 수정 ( 명령어: edit )");
         System.out.println("	4. 저장된 모든 항목 출력 ( 명령어: ls )");
-        System.out.println("	5. 이름 순 항목 정렬 ( 명령어: ls_name_asc )");
-        System.out.println("	6. 이름 순 항목 정렬 ( 명령어: ls_name_desc )");
-        System.out.println("	7. 날짜 순 항목 정렬 ( 명령어: ls_date )");
-        System.out.println("	8. 프로그램 종료 ( ESC key OR 명령어: exit )");
-        System.out.println("	9. 키워드로 검색 ( 명령어: find <키워드> )");
-        System.out.println("	10. 날짜 역순 항목 정렬 ( 명령어: ls_date_desc )");
-        System.out.println("	11. 키워드로 카테고리 검색 ( 명령어: find_cate <키워드> )");
-        System.out.println("	12. 키워드로 출력 ( 명령어: ls_cate )");
-        System.out.println("	13. 완료 체크하기  ( 명령어: comp )");
-        System.out.println("	14. 완료된 항목만 출력하기 ( 명령어: ls_comp )");
-        System.out.println("	15. 달력 일정 보기 ( 명령어: cal )");
+        System.out.println("	5. 프로그램 종료 ( ESC key OR 명령어: exit )");
+        System.out.println("	6. 여러 항목 삭제 ( 명령어: mt_del )");
+        System.out.println("	7. 완료 체크하기  ( 명령어: comp )");
+        System.out.println("	8. 여러 항목 완료 체크 ( 명령어: mt_comp )");
+        System.out.println("	9. 완료된 항목만 출력하기 ( 명령어: ls_comp )");
+        System.out.println("	10. 달력 일정 보기 ( 명령어: cal )");
         System.out.println(".-------------------------------------------------.");
         System.out.println();
     }
