@@ -46,6 +46,9 @@ public class TodoMain {
 			case "mt_comp":
 				TodoUtil.MultiComp(l);
 				break;
+			case "cal":
+				TodoUtil.checkCalendar();
+				break;
 			}
 			
 		} while (!quit);

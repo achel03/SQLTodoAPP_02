@@ -124,8 +124,24 @@ public class TodoUtil {
 			System.out.println("체크 표시되었습니다.");
 		
 	}
-	
-	
+
+	public static void checkCalendar() {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("연도를 입력하세요 > ");
+			int year = sc.nextInt();
+			System.out.println("월을 입력하세요 > ");
+			int month = sc.nextInt();
+
+			if (year < 1 || month > 12 || month < 1) {
+				System.out.println("잘못 입력하셨습니다.");
+				year = sc.nextInt();
+				month = sc.nextInt();
+			}
+
+			Calendar.printCalendar(year, month);
+
+		}
+		
+	}
 	
 
-}

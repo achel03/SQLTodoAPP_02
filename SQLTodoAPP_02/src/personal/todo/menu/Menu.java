@@ -21,6 +21,7 @@ public class Menu {
         System.out.println("	12. 키워드로 출력 ( 명령어: ls_cate )");
         System.out.println("	13. 완료 체크하기  ( 명령어: comp )");
         System.out.println("	14. 완료된 항목만 출력하기 ( 명령어: ls_comp )");
+        System.out.println("	15. 달력 일정 보기 ( 명령어: cal )");
         System.out.println(".-------------------------------------------------.");
         System.out.println();
     }
