@@ -52,7 +52,7 @@ public class TodoUtil {
 		System.out.print("새 제목 > ");
 		new_title = sc.next().trim();
 		if (l.isDuplicate(new_title)) {
-			System.out.printf("title can't be duplicate!!");
+			System.out.printf("title can't be duplicate!!!");
 			return;
 		}
 		System.out.print("새 작성자 > ");
