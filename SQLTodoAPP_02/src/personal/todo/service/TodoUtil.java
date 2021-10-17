@@ -71,6 +71,7 @@ public class TodoUtil {
 		new_star = sc.nextInt();
 		
 		TodoItem t = new TodoItem(new_title,  new_writer, new_memo, new_cate, new_due, new_comp, new_star);
+		t.setId(index);
 		if(l.editItemL(t)>0)
 			System.out.println("수정되었습니다:)");
 	}
